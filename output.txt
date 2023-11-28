@@ -1,0 +1,270 @@
+Variable declared
+
+Equal: 30 == 30?
+Yes, Equal
+
+Print: 30
+
+--- IF Condition Matched ---
+
+--- User defined function ---
+
+Print: --- Main Function Starts ---
+
+Variable declared
+
+Variable declared
+
+Variable not declared
+
+Print: 10
+
+Print: 7
+
+Print: -5
+
+Variable declared
+
+Character Value Assigned
+
+Array declared
+
+Array Value Assigned
+
+Addition: 10 + 7 = 17
+
+Print: 17
+
+Subtraction: 10 - 7 = 3
+
+Print: 3
+
+Multiplication: 10 x 7 = 70
+
+Print: 70
+
+Division: 10 / 7 = 1
+
+Print: 1
+
+Modulus: 10 mod 7 = 3
+
+Print: 3
+
+Incremented Value = 11
+
+Print: 11
+
+Decremented Value = 9
+
+Print: 9
+
+Greater Than: 10 > 7?
+Yes, Greater
+
+Less Than: 7 < 10?
+Yes, Lesser
+
+Logically True
+
+Print: 1
+
+Less Than: 1 < 7?
+Yes, Lesser
+
+Greater Than: 7 > 10?
+No, Not Greater
+
+Logically False
+
+Print: 0
+
+Multiplication: 7 x 10 = 70
+
+Addition: 10 + 70 = 80
+
+Print: 80
+
+sin(30) = 0.50
+
+Print: 0
+
+cose(30) = 0.87
+
+Print: 0
+
+tan(30) = 0.58
+
+Print: 0
+
+log(12) = 1.079181
+
+Print: 1
+
+ln(5) = 1.609438
+
+Print: 1
+
+Square Root of 64 = 8.0000
+
+Print: 8
+
+Power: 10 ^ 7 = 10000000
+
+Print: 10000000
+
+Variable declared
+
+Factorial of 6 = 720
+
+Print: 720
+
+GCD of 2 and 4 = 2
+
+Print: 2
+
+6 is big between 6 and 5
+
+Print: 6
+
+5 is small between 5 and 6
+
+Print: 5
+
+Greater Than or Equal: 1100 >= 110?
+Yes, Greater Than or Equal
+
+Addition: 1 + 2 = 3
+
+Addition: 3 + 3 = 6
+
+--- IF Condition Matched ---
+
+Greater Than: 10 > 6?
+Yes, Greater
+
+Less Than: 6 < 80?
+Yes, Lesser
+
+Logically True
+
+Print: Condition Fulfiled
+
+--- IF Condition Matched ---
+
+Greater Than: 10 > 6?
+Yes, Greater
+
+Not Equal: 2 != 2?
+No, Equal
+
+Print: 6
+
+Greater Than: 3 > 2?
+Yes, Greater
+
+--- IF Condition Matched ---
+
+Print: 6
+
+Equal: 2 == 2?
+Yes, Equal
+
+Print: 1
+
+--- ELSE IF Condition Matched ---
+
+--- IF Condition Matched ---
+
+Equal: 100 == 101?
+No, Not Equal
+
+Addition: 1 + 2 = 3
+
+Addition: 2 + 3 = 5
+
+--- ELSE Condition Matched ---
+
+Equal: 100 == 101?
+No, Not Equal
+
+Addition: 1 + 2 = 3
+
+Equal: 100 == 100?
+Yes, Equal
+
+Addition: 2 + 3 = 5
+
+Addition: 3 + 4 = 7
+
+--- ELSE IF Condition Matched ---
+
+Print: --- For loop Starts ---
+
+Greater Than: 7 > 5?
+Yes, Greater
+
+--- IF Condition Matched ---
+
+Print: 10
+
+Expression value = 1
+Expression value = 3
+Expression value = 5
+Expression value = 7
+Expression value = 9
+
+--- For Loop Ends --- 
+
+Print: --- For loop Starts ---
+
+Expression value = 10
+Expression value = 9
+Expression value = 8
+Expression value = 7
+Expression value = 6
+Expression value = 5
+Expression value = 4
+Expression value = 3
+Expression value = 2
+Expression value = 1
+
+--- For Loop Ends --- 
+
+Less Than: 3 < 5?
+Yes, Lesser
+
+Subtraction: 5 - 1 = 4
+
+--- While Loop Starts --- 
+
+Inside While Loop
+
+--- While Loop Ends --- 
+
+Addition: 1 + 2 = 3
+
+Value of expression = 3
+
+Addition: 2 + 3 = 5
+
+Value of expression = 5
+
+Print: This is inside Case 2
+
+Matched for Case: 2
+
+Addition: 3 + 4 = 7
+
+Value of expression = 7
+
+--- Switch Case ---
+
+This is Single Line Comment
+
+This is Multiple Line Comment
+
+Main Function Ends
+
+Header File Added
+

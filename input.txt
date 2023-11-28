@@ -1,0 +1,199 @@
+#dep[std.hed]
+
+integer functionName<integer a, charac b>
+[
+    integer aa@
+    aa = 30 @
+    iff < aa == 30 >
+    [
+        output [aa]@
+    ]
+]
+
+start <>
+[
+    output ["--- Main Function Starts ---"]@
+
+    integer a, b, ab, c@
+    fraction fc @
+
+    x = a @
+    
+    a = 10@
+    b = 7@
+
+    fc = -5.2 @
+
+    output[a]@
+    output[b]@
+    output [fc] @ 
+
+    charac ch@
+    ch = <1>@
+
+    integer ar<4> @
+    ar = <1, 2, 3, 4>@
+
+    ab = a + b@
+    output[ab]@
+    
+    ab = a ~ b@
+    output[ab]@
+
+    ab = a # b@
+    output[ab]@
+
+    ab = a / b@
+    output[ab]@
+
+    ab = a % b@
+    output[ab]@
+
+    ab = a++@
+    output[ab]@
+
+    ab = a~~@
+    output[ab]@
+
+    ab = a>>b & b<<a @
+    output [ab]@
+
+    ab = ab<<b | b>>a @
+    output [ab]@
+
+    ab = a + b # a @
+    output[ab]@
+
+    c = sine<30> @
+    output [c]@
+
+    c = cose<30> @
+    output [c]@
+
+    c = tang<30> @
+    output [c]@
+
+    c = log<12> @
+    output [c]@
+
+    c = ln<5> @
+    output [c]@
+
+    c = root<64>@
+    output[c]@
+
+    c = a ^ b @
+    output [c]@
+
+    integer f@
+    f = fact <6> @
+    output [f]@
+
+    f = gcd <2, 4>@
+    output [f]@
+
+    f = max <6, 5> @
+    output [f]@
+
+    f = min <5, 6> @
+    output [f]@
+
+    iff <1100 =>> 110>
+    [
+        b = 1 + 2 + 3@
+    ]
+
+    iff < a>>b & b << ab >
+    [
+        output ["Condition Fulfiled"]@
+    ]
+
+    iff < a >> b >
+    [
+        iff < 2 !== 2 >
+        [
+            a = b @
+            output [a]@
+
+            iff < 3 >> 2 >
+            [
+                c = b @
+            ]
+            output[c]@
+        ]
+        elsif < 2==2 >
+        [
+            a = 1@
+            output [a]@
+        ]
+        els
+        [
+            b = a @
+        ]
+    ]
+
+    iff < 100 == 101 >
+    [
+        a = 1 + 2 @
+    ]
+    els
+    [
+        b = 2 + 3@
+    ]
+
+    iff < 100 == 101 >
+    [
+        a = 1 + 2 @
+    ]
+    elsif < 100 == 100 >
+    [
+        b = 2 + 3 @
+    ]
+    els
+    [
+        c = 3 + 4 @
+    ]
+
+    floop <a = 1, a <<= 10, a = a + 2>
+    [
+        output ["--- For loop Starts ---"] @
+
+        iff < c >> b > 
+        [
+            c = 10@
+        ]
+        
+        output[c]@
+    ]
+
+
+    floop <a = 10, a =>> 1, a = a ~ 1>
+    [
+        output ["--- For loop Starts ---"] @
+    ]
+
+    wloop < a << b >
+    [
+        b = b ~ 1@
+        
+    ]
+
+    go <2>
+    [
+        case 1::
+            1 + 2@
+            exit @
+        case 2::
+            2 + 3@
+            output ["This is inside Case 2"] @
+            exit @
+        default::
+            3 + 4@
+    ]
+
+    ## This is Single Line Comment
+
+    //* This is
+        Multiple Line 
+        Comment *//
+]
